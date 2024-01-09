@@ -161,7 +161,7 @@ function ArrowLeftIcon(props) {
     <button
       {...props}
       className={`text-white w-6 h-6 flex items-center justify-center absolute z-10 left-0`}
-      style={{ top: '50%', left: '-10%',transform: 'translate(0, -50%)' }}
+      style={{ top: '25%', left: '-5%',transform: 'translate(0, -50%)' }}
     >
       <img src="/button-next-left.png" alt="Previous Slide" />
     </button>
@@ -173,7 +173,7 @@ function ArrowRightIcon(props) {
     <button
       {...props}
       className={`text-white w-6 h-6 flex items-center justify-center absolute z-10 right-0`}
-      style={{ top: '50%', right:'-10%',transform: 'translate(0, -50%)' }}
+      style={{ top: '25%', right:'-5%',transform: 'translate(0, -50%)' }}
     >
       <img src="/button-prev-right.png" alt="Next Slide" />
     </button>
