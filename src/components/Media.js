@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 // 各タブのコンテンツコンポーネント
 function AllContent() {
   return (
-    <div className="max-w-4xl mx-auto">
+    <div id="media" className="max-w-4xl mx-auto">
       <div className="bg-no-repeat bg-cover" style={{
             backgroundImage: "url(/title-screen3.png)",
             backgroundPosition: 'center',
@@ -351,8 +351,8 @@ function PvContent() {
           <PlayIcon className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white h-12" />
         </div>
         <div className="bg-[#333] text-white p-4">
-          <p className="mb-2">44444おかえり戦士！ × 歌劇団員コラボ記念TVCM</p>
-          <p className="text-sm">35周年 おかえり戦士キャンペーン</p>
+          <p className="mb-2">PV</p>
+          <p className="text-sm">PVTEST</p>
         </div>
       </div>
       <div className="col-span-2 grid grid-cols-2 gap-4">
@@ -372,7 +372,7 @@ function PvContent() {
             <PlayIcon className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white h-12" />
           </div>
           <div className="bg-[#333] text-white p-4">
-            <p className="mb-2">おかえり戦士！ × 歌劇団員コラボ記念TVCM メイキング</p>
+            <p className="mb-2">PV2</p>
           </div>
         </div>
         <div className="col-span-1">
@@ -391,45 +391,7 @@ function PvContent() {
             <PlayIcon className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white h-12" />
           </div>
           <div className="bg-[#333] text-white p-4">
-            <p className="mb-2">おかえり戦士！ × 歌劇団員「運命共同体」のうた</p>
-          </div>
-        </div>
-        <div className="col-span-1">
-          <div className="relative">
-            <img
-              alt="Media content"
-              className="w-full h-auto"
-              height="200"
-              src="/media1.jpg"
-              style={{
-                aspectRatio: "300/200",
-                objectFit: "cover",
-              }}
-              width="300"
-            />
-            <PlayIcon className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white h-12" />
-          </div>
-          <div className="bg-[#333] text-white p-4">
-            <p className="mb-2">かえり戦士！ × 歌劇団員 インタビュー</p>
-          </div>
-        </div>
-        <div className="col-span-1">
-          <div className="relative">
-            <img
-              alt="Media content"
-              className="w-full h-auto"
-              height="200"
-              src="/media1.jpg"
-              style={{
-                aspectRatio: "300/200",
-                objectFit: "cover",
-              }}
-              width="300"
-            />
-            <PlayIcon className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white h-12" />
-          </div>
-          <div className="bg-[#333] text-white p-4">
-            <p className="mb-2">戦士！ × PPE41 2周年コラボMV</p>
+            <p className="mb-2">PV3</p>
           </div>
         </div>
       </div>
@@ -465,7 +427,7 @@ export default function MediaComponent() {
   };
 
   return (
-    <div className="bg-[url('/bg-screen3.png')] bg-cover bg-center">
+    <section className="bg-[url('/bg-screen3.png')] bg-cover bg-center p-4">
       <div className="container mx-auto px-4 py-12">
         <div className="flex justify-center items-center">
          <img
@@ -494,7 +456,7 @@ export default function MediaComponent() {
       </div>
       {/* 選択されたタブに基づいてコンテンツをレンダリング */}
       {renderContent()}
-    </div>
+    </section>
   );
 }
 

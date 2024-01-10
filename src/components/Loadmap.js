@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Loadmap = () => {
   return (
-    <section style={{backgroundImage: "url('/bg-screen5.png')"}}>
+    <section id="loadmap" style={{backgroundImage: "url('/bg-screen5.png')"}}>
       <div className="pcWidth-l" style={{width: '1024px', maxWidth: '90%', margin: '0 auto'}}>
         <div className="loadmap" style={{padding: '1.5rem 3rem 2rem', paddingBottom: '10rem', borderRadius: '1rem', backgroundColor: 'rgba(244, 244, 244, 0.5)', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
         <div>

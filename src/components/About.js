@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-  <section className=" mx-auto bg-[url('/bg-screen3.png')] bg-cover bg-center" style={{paddingBottom: '10rem'}}>
+  <section id="about" className=" mx-auto bg-[url('/bg-screen3.png')] bg-cover bg-center" style={{paddingBottom: '10rem'}}>
       {/* <div className="container mx-auto px-4 py-12">
         <div className="flex justify-center items-center">
          <img
@@ -16,11 +16,11 @@ function About() {
         </div>
       </div> */}
       <div className="flex justify-center">
-        <h1 style={{fontSize: '5rem', fontWeight: 'bold'}}>About</h1>
+        <h1 style={{fontSize: '5rem', fontWeight: 'bold', color: 'white'}}>About</h1>
       </div>
       <div class="flex flex-col md:flex-row justify-center items-center py-16 max-w-3xl mx-auto">
         <div className="md:w-1/2 ml-auto">
-          <div className="text-lg leading-relaxed text-gray-700 mb-6">
+          <div className="text-lg leading-relaxed text-white mb-6">
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト
             <br />テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             <br />テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト

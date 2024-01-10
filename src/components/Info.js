@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Component() {
   return (
-    <div className=" bg-[url('/bg-screen5.png')] bg-cover bg-center " >
+    <div id="info" className=" bg-[url('/bg-screen5.png')] bg-cover bg-center " >
       {/* 画像をお知らせの上部に配置 */}
       <div className="text-center pt-8" style={{maxWidth: '500px', margin: '0 auto'}}>
         <img
